@@ -9,8 +9,7 @@
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/arduino_uno_main_board.jpg" alt="" width="200" height="200" /><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/ethernet-shield.jpg" alt="Ethernet-Shield" width="200" />&nbsp;</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/ElectricSelfConsumptionMonitor/master/images/schemaEnergia.jpg" width="439" height="405" /></p>
 <hr />
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>La parte Hardware del sistema di monitoraggio, &egrave; costituira da un modulo <strong>Arduino Uno</strong>, integrato con una <strong>ethernet-shield</strong>, si collega alla rete lan e invia periodicamente le informazioni al server.<br />Al fine di ridurre il traffico dati, viene inviata una nuova lettura, solo quando questa varia in modo sensibile rispetto all'ultima inviata.<br />Viene invece inviata anche in caso di variazioni minime allo scadere di un timeout.</p>
 <hr />
 <h3>Il comportamento del sistema &egrave; il seguente:</h3>
 <ul>
