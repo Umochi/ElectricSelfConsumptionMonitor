@@ -1,5 +1,5 @@
 <h1>#ElectricSelfConsumptionMonitor</h1>
-<h2>Progetto per il monitoraggio della produzione, cosumo e scambio di energia elettrica.</h2>
+<h2>Progetto per il monitoraggio della produzione, cosumo e scambio di energia elettrica di un sistema che integara un impianto di pannelli solari o eolico.</h2>
 <p>L'hardware che si occupa di ricavare le quantit&agrave;di energia transitati sui fili dell'impianto &egrave; costituito da una scheda <strong>Arduino Uno</strong>,<br /> collegata alla rete tramite <strong>Ethernet-Shield</strong>.<br />La lettura dell'energia trasitate viene ricavata tramite 3 pinze amperometriche non invasive che vengono applicate</p>
 <ul>
 <li>sul filo che collega l'impiamto fotovoltaico al contatore.</li>
